@@ -19,7 +19,7 @@ var ritaSjälv = false;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	buttonJohan = createButton('Johan Wild (dvs. bästa matematik läraren)');
+	buttonJohan = createButton('Johan Wild (dvs. bästa matematikläraren)');
 	buttonJohan.position(0, 0);
 	buttonJohan.mousePressed(function () {
 		bilden = johan;
