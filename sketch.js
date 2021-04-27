@@ -23,10 +23,10 @@ function setup() {
 	buttonJohan.position(0, 0);
 	buttonJohan.mousePressed(function () {
 		bilden = johan;
-		skip = 30
+		skip = 20
 		färg = [244, 54, 76];
 		weight = 2;
-		faktor = 3;
+		faktor = 0.6;
 		körigång();
 	})
 
